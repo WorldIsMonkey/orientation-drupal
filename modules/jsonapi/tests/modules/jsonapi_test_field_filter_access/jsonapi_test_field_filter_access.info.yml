@@ -1,6 +1,6 @@
-name: 'JSON API field access'
+name: 'JSON:API filter access'
 type: module
-description: 'Provides a custom field access hook to test JSON API field access security.'
+description: 'Provides custom access related code to test JSON:API filter security.'
 package: Testing
 # core: 8.x
 
