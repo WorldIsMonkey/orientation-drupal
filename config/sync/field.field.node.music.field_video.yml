@@ -1,0 +1,27 @@
+uuid: 43e50ff7-790a-47e9-b696-1a7c78ed8564
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.music
+  module:
+    - file
+id: node.music.field_video
+field_name: field_video
+entity_type: node
+bundle: music
+label: 视频
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp4
+  max_filesize: '50 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,21 @@
+uuid: 7d30b96f-ed1e-4f0d-aeb3-93048f919b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_music_position
+    - node.type.music
+  module:
+    - options
+id: node.music.field_music_position
+field_name: field_music_position
+entity_type: node
+bundle: music
+label: 出现位置
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

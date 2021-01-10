@@ -1,0 +1,33 @@
+uuid: 15131d17-8d8e-458f-8e41-1a727eaa30ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_redirect
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  entity_redirect:
+    destination: url
+    url: /admin/content
+    personalizable: false
+    redirect_edit: true
+    external: ''
+    personalization:
+      20:
+        destination: default
+        url: ''
+        external: ''
+      10:
+        destination: default
+        url: ''
+        external: ''
+name: 马赛克
+type: mosaic
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

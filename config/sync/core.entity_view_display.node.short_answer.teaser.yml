@@ -1,0 +1,20 @@
+uuid: fa5d2983-8e1d-42bd-bf52-4693f49cd050
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.short_answer
+  module:
+    - user
+id: node.short_answer.teaser
+targetEntityType: node
+bundle: short_answer
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

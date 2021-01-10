@@ -1,0 +1,21 @@
+uuid: 72c6e8f7-ea1b-4e99-b468-e6daae8f017e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_option
+    - node.type.multiple_choice
+  module:
+    - options
+id: node.multiple_choice.field_option
+field_name: field_option
+entity_type: node
+bundle: multiple_choice
+label: 答案
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

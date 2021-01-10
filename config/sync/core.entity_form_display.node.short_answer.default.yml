@@ -1,0 +1,56 @@
+uuid: 4353cbc8-c7c9-4256-a372-5d15ce94c123
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.short_answer.field_answer
+    - field.field.node.short_answer.field_pic1
+    - field.field.node.short_answer.field_question
+    - image.style.thumbnail
+    - node.type.short_answer
+  module:
+    - image
+id: node.short_answer.default
+targetEntityType: node
+bundle: short_answer
+mode: default
+content:
+  field_answer:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pic1:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_question:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

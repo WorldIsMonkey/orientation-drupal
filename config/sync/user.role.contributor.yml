@@ -1,0 +1,44 @@
+uuid: 0b89797a-c794-4328-8921-ff34bf5e4f5c
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access shortcuts'
+  - 'access toolbar'
+  - 'create mask content'
+  - 'create mosaic content'
+  - 'create multiple_choice content'
+  - 'create music content'
+  - 'create short_answer content'
+  - 'create true_or_false content'
+  - 'delete any mask content'
+  - 'delete any mosaic content'
+  - 'delete any multiple_choice content'
+  - 'delete any music content'
+  - 'delete any short_answer content'
+  - 'delete any true_or_false content'
+  - 'delete own mask content'
+  - 'delete own mosaic content'
+  - 'delete own multiple_choice content'
+  - 'delete own music content'
+  - 'delete own short_answer content'
+  - 'delete own true_or_false content'
+  - 'edit any mask content'
+  - 'edit any mosaic content'
+  - 'edit any multiple_choice content'
+  - 'edit any music content'
+  - 'edit any short_answer content'
+  - 'edit any true_or_false content'
+  - 'edit own mask content'
+  - 'edit own mosaic content'
+  - 'edit own multiple_choice content'
+  - 'edit own music content'
+  - 'edit own short_answer content'
+  - 'edit own true_or_false content'
+  - 'view own unpublished content'

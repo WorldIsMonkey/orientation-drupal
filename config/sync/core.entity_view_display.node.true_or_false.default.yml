@@ -1,0 +1,47 @@
+uuid: ccb14b9d-8718-46a2-bf57-07c7d47443db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.true_or_false.field_pic1
+    - field.field.node.true_or_false.field_question
+    - field.field.node.true_or_false.field_tf
+    - node.type.true_or_false
+  module:
+    - image
+    - options
+    - user
+id: node.true_or_false.default
+targetEntityType: node
+bundle: true_or_false
+mode: default
+content:
+  field_pic1:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_question:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_tf:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

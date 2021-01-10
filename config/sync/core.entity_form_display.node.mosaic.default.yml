@@ -1,0 +1,74 @@
+uuid: 81c0865c-60ff-4bd8-bef3-93d12b35c175
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mosaic.field_pic1
+    - field.field.node.mosaic.field_pic2
+    - field.field.node.mosaic.field_pic3
+    - field.field.node.mosaic.field_pic4
+    - field.field.node.mosaic.field_question
+    - image.style.thumbnail
+    - node.type.mosaic
+  module:
+    - image
+id: node.mosaic.default
+targetEntityType: node
+bundle: mosaic
+mode: default
+content:
+  field_pic1:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pic2:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pic3:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pic4:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_question:
+    weight: 2
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

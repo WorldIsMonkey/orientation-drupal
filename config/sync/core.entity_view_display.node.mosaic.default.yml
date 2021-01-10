@@ -1,0 +1,68 @@
+uuid: c6b8c51b-56fb-43f9-a9de-17e57c4d12af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mosaic.field_pic1
+    - field.field.node.mosaic.field_pic2
+    - field.field.node.mosaic.field_pic3
+    - field.field.node.mosaic.field_pic4
+    - field.field.node.mosaic.field_question
+    - node.type.mosaic
+  module:
+    - image
+    - user
+id: node.mosaic.default
+targetEntityType: node
+bundle: mosaic
+mode: default
+content:
+  field_pic1:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_pic2:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_pic3:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_pic4:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_question:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

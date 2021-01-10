@@ -1,0 +1,7 @@
+uuid: b7add044-9b54-453e-906b-246f30d42901
+langcode: en
+status: false
+dependencies: {  }
+formId: node_mosaic_form
+captchaType: default
+label: null

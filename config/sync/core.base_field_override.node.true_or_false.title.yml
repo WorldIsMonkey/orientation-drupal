@@ -1,0 +1,18 @@
+uuid: 4fd4ef85-b2bc-4d90-889b-41e51367773d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.true_or_false
+id: node.true_or_false.title
+field_name: title
+entity_type: node
+bundle: true_or_false
+label: 题号
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

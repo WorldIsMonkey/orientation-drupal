@@ -1,0 +1,18 @@
+uuid: 217efc35-b40e-46b3-8e72-351e8175042a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.multiple_choice
+id: node.multiple_choice.title
+field_name: title
+entity_type: node
+bundle: multiple_choice
+label: 题号
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

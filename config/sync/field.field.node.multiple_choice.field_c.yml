@@ -1,0 +1,19 @@
+uuid: 84cfb823-18c2-4612-b108-1e9af065b79f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_c
+    - node.type.multiple_choice
+id: node.multiple_choice.field_c
+field_name: field_c
+entity_type: node
+bundle: multiple_choice
+label: 'C 选项'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

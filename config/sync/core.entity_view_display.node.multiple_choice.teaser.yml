@@ -1,0 +1,32 @@
+uuid: 65a6c664-39d2-468b-9c37-d80b180458af
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.multiple_choice.field_a
+    - field.field.node.multiple_choice.field_b
+    - field.field.node.multiple_choice.field_c
+    - field.field.node.multiple_choice.field_d
+    - field.field.node.multiple_choice.field_option
+    - field.field.node.multiple_choice.field_question
+    - node.type.multiple_choice
+  module:
+    - user
+id: node.multiple_choice.teaser
+targetEntityType: node
+bundle: multiple_choice
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_a: true
+  field_b: true
+  field_c: true
+  field_d: true
+  field_option: true
+  field_question: true
