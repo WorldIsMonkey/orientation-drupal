@@ -1,0 +1,21 @@
+uuid: 8bd245dc-093d-4cb9-a0be-d4a37195b4c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tf
+    - node.type.true_or_false
+  module:
+    - options
+id: node.true_or_false.field_tf
+field_name: field_tf
+entity_type: node
+bundle: true_or_false
+label: 答案
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

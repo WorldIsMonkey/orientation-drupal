@@ -1,0 +1,56 @@
+uuid: 4ce47568-c77a-4ca5-b892-00a4cfe1e898
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mask.field_pic1
+    - field.field.node.mask.field_pic2
+    - field.field.node.mask.field_question
+    - image.style.thumbnail
+    - node.type.mask
+  module:
+    - image
+id: node.mask.default
+targetEntityType: node
+bundle: mask
+mode: default
+content:
+  field_pic1:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pic2:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_question:
+    weight: 1
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

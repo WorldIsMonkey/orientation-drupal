@@ -1,0 +1,14 @@
+uuid: 95928c42-8ee0-4663-bece-4281063e9688
+name: 'WIM Orientation Contribution'
+mail: me@andrewwang.ca
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /admin/content
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

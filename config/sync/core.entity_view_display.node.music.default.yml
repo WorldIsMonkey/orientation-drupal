@@ -1,0 +1,64 @@
+uuid: 717f9973-9c6e-4144-975d-1fc5acdf4f53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.music.field_audio
+    - field.field.node.music.field_music_position
+    - field.field.node.music.field_question
+    - field.field.node.music.field_song_title
+    - field.field.node.music.field_video
+    - node.type.music
+  module:
+    - file
+    - options
+    - user
+id: node.music.default
+targetEntityType: node
+bundle: music
+mode: default
+content:
+  field_audio:
+    weight: 103
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_music_position:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_question:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_song_title:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_video:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

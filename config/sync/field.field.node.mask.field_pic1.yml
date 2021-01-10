@@ -1,0 +1,38 @@
+uuid: 56a80fd0-142a-410c-b2ea-1e3c326482ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pic1
+    - node.type.mask
+  module:
+    - image
+id: node.mask.field_pic1
+field_name: field_pic1
+entity_type: node
+bundle: mask
+label: '图片 1'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '1 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

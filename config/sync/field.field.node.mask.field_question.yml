@@ -1,0 +1,19 @@
+uuid: a46006fd-de31-4fbb-982d-8e252aed916f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_question
+    - node.type.mask
+id: node.mask.field_question
+field_name: field_question
+entity_type: node
+bundle: mask
+label: 答案
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

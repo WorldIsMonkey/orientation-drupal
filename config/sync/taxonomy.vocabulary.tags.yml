@@ -1,0 +1,23 @@
+uuid: 1313fd11-2e86-4159-9da0-ad3391d6d5f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_redirect
+third_party_settings:
+  entity_redirect:
+    personalization:
+      20:
+        destination: default
+        url: ''
+        external: ''
+      10:
+        destination: default
+        url: ''
+        external: ''
+_core:
+  default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
+name: Tags
+vid: tags
+description: 'Use tags to group articles on similar topics into categories.'
+weight: 0

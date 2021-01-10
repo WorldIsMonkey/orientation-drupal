@@ -1,0 +1,18 @@
+uuid: 22d8fe98-36e4-4243-b206-53e20c5fb0fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.short_answer
+id: node.short_answer.title
+field_name: title
+entity_type: node
+bundle: short_answer
+label: 题号
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

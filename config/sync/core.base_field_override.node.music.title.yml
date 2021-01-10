@@ -1,0 +1,18 @@
+uuid: d26bc941-0fd2-4265-b25d-e1927c25132a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.music
+id: node.music.title
+field_name: title
+entity_type: node
+bundle: music
+label: 题号
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

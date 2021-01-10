@@ -1,0 +1,30 @@
+uuid: 69e905c9-15c5-431a-acb2-fd0f1b5c756b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_music_position
+field_name: field_music_position
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: OP
+      label: OP
+    -
+      value: ED
+      label: ED
+    -
+      value: 挿入歌
+      label: 挿入歌
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

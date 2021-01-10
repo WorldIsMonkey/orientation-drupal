@@ -1,0 +1,18 @@
+uuid: 43746eaf-c890-495b-826d-0b31cb3041d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mosaic
+id: node.mosaic.title
+field_name: title
+entity_type: node
+bundle: mosaic
+label: 题号
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+uuid: f03f4baf-7bc9-49e4-81e6-b53d44fa8b94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audio
+    - node.type.music
+  module:
+    - file
+id: node.music.field_audio
+field_name: field_audio
+entity_type: node
+bundle: music
+label: 音频
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp3
+  max_filesize: '1 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

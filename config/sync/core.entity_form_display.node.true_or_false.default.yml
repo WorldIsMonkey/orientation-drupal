@@ -1,0 +1,54 @@
+uuid: 29bc245e-8757-42d7-9475-0b98f0f959b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.true_or_false.field_pic1
+    - field.field.node.true_or_false.field_question
+    - field.field.node.true_or_false.field_tf
+    - image.style.thumbnail
+    - node.type.true_or_false
+  module:
+    - image
+id: node.true_or_false.default
+targetEntityType: node
+bundle: true_or_false
+mode: default
+content:
+  field_pic1:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_question:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_tf:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

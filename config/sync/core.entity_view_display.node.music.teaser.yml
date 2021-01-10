@@ -1,0 +1,20 @@
+uuid: 7f04e893-b621-4287-a4be-486cdb0ff0bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.music
+  module:
+    - user
+id: node.music.teaser
+targetEntityType: node
+bundle: music
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

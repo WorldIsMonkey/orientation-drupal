@@ -1,0 +1,20 @@
+uuid: 1e14eb71-eb30-43db-8032-3d463318693f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.mask
+  module:
+    - user
+id: node.mask.teaser
+targetEntityType: node
+bundle: mask
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

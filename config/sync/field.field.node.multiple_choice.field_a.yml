@@ -1,0 +1,19 @@
+uuid: a3973ed1-0f5e-46b9-8d76-d3d9b30b1392
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_a
+    - node.type.multiple_choice
+id: node.multiple_choice.field_a
+field_name: field_a
+entity_type: node
+bundle: multiple_choice
+label: 'A 选项'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

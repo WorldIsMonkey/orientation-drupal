@@ -1,0 +1,33 @@
+uuid: f2256576-d4dd-49a4-8e0c-2307b5b1a735
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_redirect
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  entity_redirect:
+    destination: url
+    url: /admin/content
+    personalizable: false
+    redirect_edit: true
+    external: ''
+    personalization:
+      20:
+        destination: default
+        url: ''
+        external: ''
+      10:
+        destination: default
+        url: ''
+        external: ''
+name: 选择题
+type: multiple_choice
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
